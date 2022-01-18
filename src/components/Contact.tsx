@@ -39,7 +39,7 @@ export default function Contact() {
             address,
             message,
         } = user;
-        const databasepath= 'https://contactform-fd396-default-rtdb.firebaseio.com'
+        const databasepath= 'Enter Database Path here'
         const res = await fetch(
             
             `${databasepath}/contact.json`,
